@@ -13,7 +13,7 @@ import Timer from '../src/Timer';
 describe('<App />', () => {
   var appWrapper
 
-  it('calls componentDidMount and adds a quote', () => {
+  it('calls componentDidMount and adds a timer', () => {
     spy(App.prototype, 'componentDidMount');
     appWrapper = shallow(<App />);
 
